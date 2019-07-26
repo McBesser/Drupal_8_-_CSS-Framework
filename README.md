@@ -9,5 +9,5 @@ In the Drupal Main Path create ```libraries``` if not exist and create and Place
 The Folder ```css``` is the Data Folder from CSS-Framework 
 
 ## Recommended Modules
-- [Library manager](https://www.drupal.org/project/library_manager): Remove not needed CSS Files
+- [Library manager](https://www.drupal.org/project/library_manager): Remove not needed CSS Files (Attention the module sets the media information to all; I hope this can be influenced at some point)
 
