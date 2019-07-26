@@ -4,6 +4,6 @@
 ## Required
 CSS-Framework: https://github.com/McBesser/CSS-Framework
 
-In the Drupal Path create ```libraries``` then not exist and create and Place folow Folder/Files: ```\libraries\McBesser\CSS-Framework\css\*```
+In the Drupal Main Path create ```libraries``` if not exist and create and Place folow Folder/Files: ```\libraries\McBesser\CSS-Framework\css\*```
 
 The Folder ```css``` is the Data Folder from CSS-Framework 
