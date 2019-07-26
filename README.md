@@ -1,5 +1,5 @@
 # Drupal 8 - CSS-Framework
- Use CSS-Framework in Drupal 8
+ Use my CSS-Framework in Drupal 8
 
 ## Required
 CSS-Framework: https://github.com/McBesser/CSS-Framework
