@@ -1,0 +1,8 @@
+<?php
+   /**
+    * Implements hook_page_attachments().
+    */
+   function mcbesser_css_framework_page_attachments(array &$attachments) 
+      {
+        $attachments['#attached']['library'][] = 'mcbesser_css_framework/mcbesser_css_framework';
+      }

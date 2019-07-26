@@ -1,0 +1,59 @@
+mcbesser_css_framework:
+  version: x
+  license:
+    name: GPL-3.0 
+    url: https://github.com/McBesser/Drupal_8_-_CSS-Framework/blob/master/LICENSE
+    gpl-compatible: true
+  css:
+    theme:
+      /libraries/McBesser/CSS-Framework/all.css: { minified: true }
+      /libraries/McBesser/CSS-Framework/css/preset/preset.css: {minified: true}
+      #
+      /libraries/McBesser/CSS-Framework/css/container/container.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/container/container-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/container/container-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}       
+      /libraries/McBesser/CSS-Framework/css/container/container-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/container/container-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/container/container-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}
+      #
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}    
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}       
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/spacing/spacing-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}  
+      #
+      /libraries/McBesser/CSS-Framework/css/flex/flex.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/flex/flex-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}    
+      /libraries/McBesser/CSS-Framework/css/flex/flex-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}       
+      /libraries/McBesser/CSS-Framework/css/flex/flex-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}       
+      /libraries/McBesser/CSS-Framework/css/flex/flex-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/flex/flex-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}
+      #
+      /libraries/McBesser/CSS-Framework/css/grid/grid.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/grid/grid-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/grid/grid-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/grid/grid-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/grid/grid-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/grid/grid-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}  
+      #
+      /libraries/McBesser/CSS-Framework/css/position/position.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/position/position-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/position/position-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/position/position-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/position/position-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/position/position-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}
+      #
+      /libraries/McBesser/CSS-Framework/css/text/text.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/text/text-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/text/text-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/text/text-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/text/text-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/text/text-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true} 
+      #
+      /libraries/McBesser/CSS-Framework/css/border/border.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true} 

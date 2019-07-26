@@ -1,0 +1,6 @@
+name: 'McBesser - CSS-Framework'
+type: module
+description: 'Provide this CSS-Framework for all Themes'
+core: 8.x
+package: 'McBesser'
+
