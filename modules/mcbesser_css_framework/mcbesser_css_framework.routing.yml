@@ -1,7 +1,7 @@
-mcbesser_css_framework.settings:
-  path: '/admin/config/system/mcbesser_css_framework'
-  defaults:
-    _form: '\Drupal\mcbesser_css_framework\Form\SettingsForm'
-    _title: 'McBesser - CSS-Framework Settings'
-  requirements:
-    _permission: 'administer mcbesser_css_framework configuration'
+#mcbesser_css_framework.settings:
+#  path: '/admin/config/system/mcbesser_css_framework'
+#  defaults:
+#    _form: '\Drupal\mcbesser_css_framework\Form\SettingsForm'
+#    _title: 'McBesser - CSS-Framework Settings'
+#  requirements:
+#    _permission: 'administer mcbesser_css_framework configuration'

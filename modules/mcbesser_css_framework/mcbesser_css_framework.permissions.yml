@@ -1,4 +1,4 @@
-'administer mcbesser_css_framework configuration':
-   title: 'administer McBesser - CSS-Framework configuration'
-   description: 'all permissions'
-   restrict access: true
+#'administer mcbesser_css_framework configuration':
+#   title: 'administer McBesser - CSS-Framework configuration'
+#   description: 'all permissions'
+#   restrict access: true

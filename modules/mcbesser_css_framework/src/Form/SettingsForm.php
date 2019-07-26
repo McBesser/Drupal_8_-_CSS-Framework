@@ -3,15 +3,13 @@
    
    use Drupal\Core\Form\ConfigFormBase as cf;
    use Drupal\Core\Form\FormStateInterface as fsi;
-   
-   use Drupal\Core\Render\Markup;
-    
+       
    class SettingsForm extends cf
       {
          const SETTINGS = 'mcbesser_css_framework.settings';  
          const LIBRARIES_PATH = '/libraries/McBesser/CSS-Framework/css/';
          const MASK_CSS = '/.*\.css$/';
-         
+                           
          private $libraries_path = NULL;
          
          public function __construct()
@@ -61,18 +59,18 @@
                // (de) ID der Freiwilligenagentur
                $this->test();
                /* -------------------------------------------------------------- */                       
-               
+                              
                return parent::buildForm($form, $form_state);
             }
             
-         public function submitForm(array &$form, FormStateInterface $form_state) 
+         public function submitForm(array &$form, fsi $form_state) 
             {
                /* prevent lost in space data */
                $this->configFactory->getEditable(static::SETTINGS)->delete();
                /* write submit data */                     
                $this->configFactory->getEditable(static::SETTINGS)
                      // Paths
-                     ->set('libraries_path', ($form_state->getValue('agencyId'))?$form_state->getValue('agencyId'):static::LIBRARIES_PATH)
+                     ->set('libraries_path', ($form_state->getValue('libraries_path'))?$form_state->getValue('libraries_path'):static::LIBRARIES_PATH)
                      // save
                      ->save();
                
@@ -81,8 +79,7 @@
          /* ########################################################################################### */
          private function test()
             {
-               $settings = \Drupal::config('mcbesser_css_framework.settings');
-               $this->dump($settings->get('js_code'));
+               
             }
          /* ########################################################################################### */
          // custom functions

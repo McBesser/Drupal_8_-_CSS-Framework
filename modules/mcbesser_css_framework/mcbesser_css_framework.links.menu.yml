@@ -1,5 +1,5 @@
-mcbesser_css_framework.settings:
-  title: 'McBesser - CSS-Framework Settings'
-  description: 'Set settings'
-  parent: 'system.admin_config_system'
-  route_name: 'mcbesser_css_framework.settings'
+#mcbesser_css_framework.settings:
+#  title: 'McBesser - CSS-Framework Settings'
+#  description: 'Set settings'
+#  parent: 'system.admin_config_system'
+#  route_name: 'mcbesser_css_framework.settings'
