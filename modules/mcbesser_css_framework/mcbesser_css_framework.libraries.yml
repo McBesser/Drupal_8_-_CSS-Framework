@@ -56,4 +56,11 @@ mcbesser_css_framework:
       /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}     
       /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
       /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
-      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true} 
+      /libraries/McBesser/CSS-Framework/css/border/border-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}
+      #
+      /libraries/McBesser/CSS-Framework/css/form/form.css: {minified: true}   
+      /libraries/McBesser/CSS-Framework/css/form/form-meta-bp-0.css: {media:'(min-width: 0px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/form/form-meta-bp-576.css: {media:'(min-width: 576px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/form/form-meta-bp-768.css: {media:'(min-width: 768px)', minified: true}      
+      /libraries/McBesser/CSS-Framework/css/form/form-meta-bp-992.css: {media:'(min-width: 992px)', minified: true}     
+      /libraries/McBesser/CSS-Framework/css/form/form-meta-bp-1200.css: {media:'(min-width: 1200px)', minified: true}  
